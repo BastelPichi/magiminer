@@ -1,2 +1,2 @@
 # magiminer
-This is just an for arm compiled version of the [official magi miner](https://github.com/m-pays/m-cpuminer-v2). It should run on a Raspberry Pi 4.
+This is just an for arm compiled version of the [official magi miner](https://github.com/m-pays/m-cpuminer-v2). It should run on a Raspberry Pi 4. You can download with `wget https://github.com/BastelPichi/magiminer/raw/main/minerd`. Then make executable with `chmod +x minerd` and fire your miner commands. format: `./minerd -o stratum+tcp://pool:port -u myusername.rigname -p password -t processorcors`. example: `./minerd -o stratum+tcp://xmg.minerclaim.net:3333 -u revox.rigone -p securepw -t 4`
